@@ -4,7 +4,7 @@
     "compatible-bot-version": 2,
     "version-deprecated": false,
     "plugin-deprecated": true,
-    "plugin-deprecation-reason": "Plugin is fully deprecated and no longer supported.",
+    "plugin-deprecation-reason": "stupid ahh dev",
     "description": "An old plugin that is no longer maintained (dev sucks ig).",
     "authors": ["Viho Wieme <contact@viho.dev>"],
     "license": "MIT",
