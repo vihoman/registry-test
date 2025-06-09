@@ -1,0 +1,39 @@
+{
+  "name": "Discord Bot Plugins",
+  "description": "Official registry for Discord bot plugins.",
+  "maintainers": ["Eduard Smet <contact@celarye.dev>"],
+  "registry-manager": {
+    "build-time": "2025-06-09T12:00:00.000Z",
+    "built-with": "registry-manager@0.4.1"
+  },
+  "plugins": {
+    "example-plugin": {
+      "versions": [
+        {
+          "version": "v1.0.0",
+          "compatible-bot-version": 3,
+          "deprecated": true,
+          "deprecated-reason": "Contains security vulnerabilities."
+        },
+        {
+          "version": "v1.1.0",
+          "compatible-bot-version": 3
+        }
+      ],
+      "description": "Logs user interactions in Discord channels.",
+      "update-time": "2025-06-04T13:12:00Z"
+    },
+    "old-plugin": {
+      "versions": [
+        {
+          "version": "v0.5.0",
+          "compatible-bot-version": 2
+        }
+      ],
+      "deprecated": true,
+      "deprecated-reason": "Plugin is fully deprecated and no longer supported.",
+      "description": "An old plugin that is no longer maintained.",
+      "update-time": "2023-12-01T08:00:00Z"
+    }
+  }
+}
