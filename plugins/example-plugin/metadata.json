@@ -1,0 +1,15 @@
+{
+    "name": "Example Plugin",
+    "version": "v1.1.0",
+    "compatible-bot-version": 3,
+    "version-deprecated": false,
+    "plugin-deprecated": false,
+    "description": "Logs user interactions in Discord channels.",
+    "authors": ["Eduard Smet <contact@celarye.dev>"],
+    "license": "GPLv3",
+    "update-time": "2025-06-04T13:12:00Z",
+    "homepage": "https://celarye.dev/plugins/example-plugin",
+    "documentation": "https://github.com/celarye/example-plugin#readme",
+    "repository": "https://github.com/celarye/example-plugin",
+    "tags": ["logging", "moderation"]
+  }
