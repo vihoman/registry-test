@@ -12,8 +12,7 @@
         {
           "version": "v1.0.0",
           "compatible-bot-version": 3,
-          "deprecated": true,
-          "deprecated-reason": "Contains security vulnerabilities."
+          "deprecated": false
         },
         {
           "version": "v1.1.0",
@@ -31,7 +30,6 @@
         }
       ],
       "deprecated": true,
-      "deprecated-reason": "Plugin is fully deprecated and no longer supported.",
       "description": "An old plugin that is no longer maintained.",
       "update-time": "2023-12-01T08:00:00Z"
     }
