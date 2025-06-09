@@ -19,7 +19,6 @@
           "compatible-bot-version": 3
         }
       ],
-      "description": "Logs user interactions in Discord channels.",
       "update-time": "2025-06-04T13:12:00Z"
     },
     "old-plugin": {
@@ -30,7 +29,6 @@
         }
       ],
       "deprecated": true,
-      "description": "An old plugin that is no longer maintained.",
       "update-time": "2023-12-01T08:00:00Z"
     }
   }
