@@ -1,15 +1,34 @@
 {
-    "name": "Example Plugin",
-    "version": "v1.1.0",
-    "compatible-bot-version": 3,
-    "version-deprecated": false,
-    "plugin-deprecated": false,
-    "description": "Logs user interactions in Discord channels.",
-    "authors": ["Eduard Smet <contact@celarye.dev>"],
-    "license": "GPLv3",
-    "update-time": "2025-06-04T13:12:00Z",
-    "homepage": "https://celarye.dev/plugins/example-plugin",
-    "documentation": "https://github.com/celarye/example-plugin#readme",
-    "repository": "https://github.com/celarye/example-plugin",
-    "tags": ["logging", "moderation"]
+  "name": "Example Plugin",
+  "version": "v1.1.0",
+  "compatible-bot-version": 3,
+  "version-deprecated": false,
+  "plugin-deprecated": false,
+  "description": "Logs user interactions in Discord channels.",
+  "dependencies": [
+    {
+      "name": "core-logger",
+      "url": "https://github.com/celarye/core-logger"
+    }
+  ],
+  "authors": ["Eduard Smet <contact@celarye.dev>"],
+  "license": "GPLv3",
+  "update-time": "2025-06-04T13:12:00Z",
+  "homepage": "https://celarye.dev/plugins/example-plugin",
+  "documentation": "https://github.com/celarye/example-plugin#readme",
+  "repository": "https://github.com/celarye/example-plugin",
+  "tags": ["logging", "moderation"],
+  "settings": {
+    "type": "object",
+    "properties": {
+      "log_channel_id": { "type": "string", "description": "ID of the Discord channel where logs should be sent." },
+      "log_message_edits": { "type": "boolean", "default": true, "description": "Whether to log edited messages." },
+      "log_message_deletes": { "type": "boolean", "default": true, "description": "Whether to log deleted messages." },
+      "ignored_channels": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "List of channel IDs to ignore."
+      }
+    }
   }
+}
