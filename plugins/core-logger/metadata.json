@@ -1,0 +1,42 @@
+{
+  "name": "core-logger",
+  "version": "v2.0.0",
+  "compatible-bot-version": 3,
+  "version-deprecated": false,
+  "plugin-deprecated": false,
+  "description": "Provides foundational logging utilities for other plugins.",
+  "dependencies": [],
+  "authors": ["System Dev Team <system@example.com>"],
+  "license": "Apache-2.0",
+  "update-time": "2025-05-20T10:00:00Z",
+  "homepage": "https://plugins.example.com/core-logger",
+  "documentation": "https://github.com/example-org/core-logger#readme",
+  "repository": "https://github.com/example-org/core-logger",
+  "tags": ["core", "logging", "utility"],
+  "settings": {
+    "type": "object",
+    "properties": {
+      "log_level": {
+        "type": "string",
+        "enum": ["debug", "info", "warn", "error"],
+        "default": "info",
+        "description": "Defines the minimum severity of logs to be recorded."
+      },
+      "log_to_file": {
+        "type": "boolean",
+        "default": false,
+        "description": "Determines if logs should be written to a file."
+      },
+      "file_path": {
+        "type": "string",
+        "default": "./logs/bot.log",
+        "description": "Path to the log file (used only if log_to_file is true)."
+      },
+      "timestamp_format": {
+        "type": "string",
+        "default": "YYYY-MM-DD HH:mm:ss",
+        "description": "Format used for timestamps in log messages."
+      }
+    }
+  }
+}
