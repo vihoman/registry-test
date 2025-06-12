@@ -30,6 +30,15 @@
       ],
       "deprecated": true,
       "update-time": "2023-12-01T08:00:00Z"
+    },
+    "core-logger": {
+      "versions": [
+        {
+          "version": "v2.0.0",
+          "compatible-bot-version": 3
+        }
+      ],
+      "update-time": "2025-05-20T10:00:00Z"
     }
   }
 }
