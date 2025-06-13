@@ -19,6 +19,11 @@
   "documentation": "https://github.com/example-org/old-plugin#readme",
   "repository": "https://github.com/example-org/old-plugin",
   "tags": ["legacy", "deprecated", "utility"],
+  "environment": {
+  "LEGACY_MODE": true,
+  "FAILSAFE_TOKEN": "env.FAILSAFE_TOKEN",
+  "DISABLE_WARNINGS": false
+}
   "settings": {
     "type": "object",
     "properties": {
