@@ -19,9 +19,9 @@
   "repository": "https://github.com/celarye/example-plugin",
   "tags": ["logging", "moderation"],
   "environment": {
-    "DISCORD_BOT_TOKEN": "env.DISCORD_BOT_TOKEN",
+    "DISCORD_BOT_TOKEN": "string",
     "ENABLE_LOGGING": true,
-    "AUDIT_WEBHOOK_URL": "env.AUDIT_WEBHOOK_URL"
+    "AUDIT_WEBHOOK_URL": "string"
 },
   "settings": {
     "type": "object",
