@@ -13,6 +13,11 @@
   "documentation": "https://github.com/example-org/core-logger#readme",
   "repository": "https://github.com/example-org/core-logger",
   "tags": ["core", "logging", "utility"],
+  "environment": {
+  "ENABLE_REMOTE_LOGGING": true,
+  "REMOTE_LOG_URL": "env.REMOTE_LOG_URL",
+  "LOG_FILE_SECRET": "env.LOG_FILE_SECRET"
+}
   "settings": {
     "type": "object",
     "properties": {
