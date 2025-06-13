@@ -21,7 +21,7 @@
   "tags": ["legacy", "deprecated", "utility"],
   "environment": {
   "LEGACY_MODE": true,
-  "FAILSAFE_TOKEN": "env.FAILSAFE_TOKEN",
+  "FAILSAFE_TOKEN": "string",
   "DISABLE_WARNINGS": false
 },
   "settings": {
