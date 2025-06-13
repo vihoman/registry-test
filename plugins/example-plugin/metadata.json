@@ -19,40 +19,16 @@
   "repository": "https://github.com/celarye/example-plugin",
   "tags": ["logging", "moderation"],
   "environment": {
-    "type": "object",
-    "properties": {
-      "DISCORD_BOT_TOKEN": {
-        "type": "string",
-        "description": "Token used to authenticate with the Discord API."
-      },
-      "ENABLE_LOGGING": {
-        "type": "boolean",
-        "default": true,
-        "description": "Enable or disable logging globally for the plugin."
-      },
-      "AUDIT_WEBHOOK_URL": {
-        "type": "string",
-        "description": "Webhook URL where audit logs will be sent, if configured."
-      }
-    }
-  },
+    "DISCORD_BOT_TOKEN": "string",
+    "ENABLE_LOGGING": true,
+    "AUDIT_WEBHOOK_URL": "string"
+},
   "settings": {
     "type": "object",
     "properties": {
-      "log_channel_id": {
-        "type": "string",
-        "description": "ID of the Discord channel where logs should be sent."
-      },
-      "log_message_edits": {
-        "type": "boolean",
-        "default": true,
-        "description": "Whether to log edited messages."
-      },
-      "log_message_deletes": {
-        "type": "boolean",
-        "default": true,
-        "description": "Whether to log deleted messages."
-      },
+      "log_channel_id": { "type": "string", "description": "ID of the Discord channel where logs should be sent." },
+      "log_message_edits": { "type": "boolean", "default": true, "description": "Whether to log edited messages." },
+      "log_message_deletes": { "type": "boolean", "default": true, "description": "Whether to log deleted messages." },
       "ignored_channels": {
         "type": "array",
         "items": { "type": "string" },
