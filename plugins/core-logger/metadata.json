@@ -15,8 +15,8 @@
   "tags": ["core", "logging", "utility"],
   "environment": {
   "ENABLE_REMOTE_LOGGING": true,
-  "REMOTE_LOG_URL": "env.REMOTE_LOG_URL",
-  "LOG_FILE_SECRET": "env.LOG_FILE_SECRET"
+  "REMOTE_LOG_URL": "string",
+  "LOG_FILE_SECRET": "string"
 },
   "settings": {
     "type": "object",
