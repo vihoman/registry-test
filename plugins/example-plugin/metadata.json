@@ -34,7 +34,7 @@
         "type": "string",
         "description": "Webhook URL where audit logs will be sent, if configured."
       }
-    },
+    }
   },
   "settings": {
     "type": "object",
