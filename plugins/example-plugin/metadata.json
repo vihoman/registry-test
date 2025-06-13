@@ -22,7 +22,7 @@
   "DISCORD_BOT_TOKEN": "env.DISCORD_BOT_TOKEN",
   "ENABLE_LOGGING": true,
   "AUDIT_WEBHOOK_URL": "env.AUDIT_WEBHOOK_URL"
-}
+},
   "settings": {
     "type": "object",
     "properties": {
