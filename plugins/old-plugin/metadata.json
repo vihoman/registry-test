@@ -23,7 +23,7 @@
   "LEGACY_MODE": true,
   "FAILSAFE_TOKEN": "env.FAILSAFE_TOKEN",
   "DISABLE_WARNINGS": false
-}
+},
   "settings": {
     "type": "object",
     "properties": {
